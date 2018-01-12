@@ -1,0 +1,64 @@
+body{
+    font-family: 'VT323', monospace;
+    display:grid;
+}
+#stage {
+    justify-self:center;
+}
+#ui{
+    display:none;
+    position:relative;
+    justify-self:center;
+    width:1216px;
+    height:64px;
+    top:-704px;
+    background-image:url("img/ui.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+#timer{
+    font-family: 'VT323', monospace;
+    justify-self: center;
+    align-self:center;
+    font-size:50px;
+}
+#player1,#player2,#player3,#player4{
+    align-self:center;
+    font-size:40px;
+    position:absolute;
+    top:10px;
+}
+#player1{
+    left:120px;
+}
+#player2{
+    left: 325px;
+}
+#player3{
+    left: 830px;
+}
+#player4{
+    left:1035px;
+}
+.heart{
+    background-image: url("img/heart.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:24px;
+    height:24px;
+    position: absolute;
+    top:18px;
+}
+.player1{
+    left: 160px;
+}
+.player2{
+    left: 365px;
+}
+.player3{
+    left:870px;
+}
+.player4{
+    left:1075px;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "SPEED",
+        "description": "increase speed of player",
+        "power": 1
+    },
+    {
+        "id": 2,
+        "name": "FIRE",
+        "description": "increase firerange",
+        "power": 1
+    },
+    {
+        "id": 3,
+        "name": "BOMB",
+        "description": "increase number of bombs",
+        "power": 1
+    },
+    {
+        "id": 4,
+        "name": "LIFE",
+        "description": "increase number of lives",
+        "power": 1
+    }
+]
